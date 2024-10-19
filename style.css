@@ -110,6 +110,25 @@ body{
 }
 
 
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu button{
+    background-color: transparent;
+    border: none;
+    margin-left: 30px;
+}
+
+.menu img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+
+}
+
 /* Hero Section styles */
 .hero {
     display: flex;
@@ -150,7 +169,7 @@ body{
 }
 
 
-.social-icons a {
+.social-icons img {
     margin-bottom: 10px;
     align-items: end;
 }
