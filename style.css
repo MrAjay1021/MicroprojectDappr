@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal; 
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #816BFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 02px 20px;
+    z-index: 1000;
+    
+}
+
+/* Search Icon */
+.search-icon {
+    position: fixed;
+    top: 20px;
+    right: 140px;
+    padding: 10px;
+}
+
+
+
+ /* Floating Help Icon */
+ .help-icon {
+    position: fixed;
+    bottom: -40px;
+    right: 80px;
+    background-color: none;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 0px rgba(43, 34, 34, 0.2);
+    z-index: 1000;
+}
+
+.help-icon img {
+    height: 120px;
+    width: 120px;
+}
+
+ /* To avoid overlap with navbar */
+ body {
+    margin-top: 90px;
+}
+
+
+.logo {
+    font-family: "Delius Unicase", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 61.43px;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 80px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    font-size: 20px;
+      
+}
+
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    ;
+    
+}
+
+.search-bar button {
+    background-color: transparent;
+    border: none;
+    margin-left: 50px;
+    
+}
+
+
+/* Hero Section styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-content {
+    display: flex;
+}
+
+.hero-image {
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.hero-text {
+    background-color: #E5D8FF;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 20px;
+    width: 730px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #6F7373;
+}
+
+/* social icon */
+.social-icons {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.social-icons a {
+    margin-bottom: 10px;
+    align-items: end;
+}
+
+.social-icons img {
+    width: 2400px;
+    height: 200px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    padding: 10px;
+    margin-right: 80px;
+}
+
+.stat-box {
+    background-color: #816BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 230px;
+}
+
+.stat-box:nth-child(2) {
+    background-color: #6A5BFF;
+}
+
+.stat-box:nth-child(3) {
+    background-color: #AB83FF;
+}
+
+.stat-box:nth-child(4) {
+    background-color: black;
+}
+
+.stat-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.stat-box p {
+    font-size: 24px;
+}
+
+/* Main Section */
+.main-container {
+    display: flex;
+    margin-top: 20px;
+    padding: 60px;
+    background-color: #483EFF;
+    width: 1060px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    height: 500px;
+    margin-top: 100px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background-color: #433BFF;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.sidebar-btn {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #483EFF;
+    border: white;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    color: white;
+    border-style: solid;
+}
+
+.sidebar-btn.active {
+    background-color: #9CD1FF;
+    color: black;
+    font-weight: bold;
+    border-style: none;
+}
+
+/* Info Section */
+.info-section {
+    width: 80%;
+    background-color: white;
+    padding: 50px;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-section h2 {
+    color: #3C3C3C;
+    margin-bottom: 20px;
+}
+
+.info-content {
+    font-size: 18px;
+    color: #333;
+    line-height: 2;
+}
+
+.info-content p {
+    margin-bottom: 10px;
+}
+
+.next-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+    
+}
+
